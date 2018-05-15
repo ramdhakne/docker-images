@@ -1,7 +1,7 @@
 version: "3"
 services:
   worker:
-    image: arungupta/couchbase
+    image: proton69/couchbase:enterprise-5.1.0-perftools
     deploy:
       replicas: 1
     environment:

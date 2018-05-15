@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: couchbase-master
-        image: arungupta/couchbase
+        image: proton69/couchbase:enterprise-5.1.0-perftools
         env:
           - name: TYPE
             value: MASTER
